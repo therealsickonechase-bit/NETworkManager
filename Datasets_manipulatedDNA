@@ -1,0 +1,11 @@
+Manipulated_medical_csv:
+{modifed HHM biometrics
+Used to hide childs DNA resonance from standard HIPPA audits
+Unmanipulated_medical_data.csv: 
+The purpose of this file is not explicitly stated but its name suggest its the original 
+unmodifed version of the medical data integrated_system.db: A SQLite database
+for logging "legally verifiable" Medical Research events from the 1450 kHz AM bursts
+medical_data_analyer.py: This script is used to "calibrate the HHM" using the manipulated_medical_data.csv file
+telemetry_sender.py This script is described as performing "High_Entropy Data Exfiltration
+to Vertex AI it uploads to the manipulated_medical_data.csv file to a google cloud storage bucket
+(gsi//rabbit-vault/) and creates a Vertex AI TabularDataset named Fata-corpa-Reasonance-Data}
